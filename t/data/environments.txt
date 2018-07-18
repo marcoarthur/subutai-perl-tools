@@ -1,0 +1,32 @@
+[
+  {
+    "environment_ttl": 3600,
+    "environment_key": "1ac1090a863585214be9a902d92a964c",
+    "environment_id": "9442c590-bab5-418d-a59b-82c2f690be69",
+    "environment_status_desc": "Environment is ready",
+    "environment_status": "HEALTHY",
+    "environment_hub_id": 47003,
+    "environment_name": "kanboard2",
+    "environment_hash": "swarm-9442c590-bab5-418d-a59b-82c2f690be69",
+    "environment_containers": [
+      {
+        "container_ip": "172.23.63.3",
+        "container_is_desktop": "false",
+        "rh_id": "8E35E571CECE327DD07825651F941EF6BB9222A0",
+        "container_name": "kanboard-wdq",
+        "rh_ip": "10.116.172.1",
+        "container_id": "65B272E71E1A8CDFBBAC44EE5F3ED17B83E5B7CC",
+        "peer_id": "B81822F4DD80ACEF2BD94DFA26ECBCF325F26177"
+      },
+      {
+        "container_ip": "172.23.63.4",
+        "container_is_desktop": "false",
+        "rh_id": "8E35E571CECE327DD07825651F941EF6BB9222A0",
+        "container_name": "ansible-server-324-kbR",
+        "rh_ip": "10.116.172.1",
+        "container_id": "370631550C8B0EAB5C9037887CA24E5F32560809",
+        "peer_id": "B81822F4DD80ACEF2BD94DFA26ECBCF325F26177"
+      }
+    ]
+  }
+]
