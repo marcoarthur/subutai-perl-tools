@@ -1,4 +1,6 @@
-requires 'perl', '5.008005';
+requires 'perl', '5.010';
+requires 'Moose', 'any';
+requires 'Mojo::UserAgent', 'any';
 
 # requires 'Some::Module', 'VERSION';
 
