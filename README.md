@@ -1,14 +1,17 @@
 # NAME
 
-Bazaar::Container - Blah blah blah
+Bazaar - Manages Subutai containers on a perl environment
 
 # SYNOPSIS
 
-    use Bazaar::Container;
+    use Bazaar;
+
+    my $c = Bazaar->new( username => 'my@user.com', password => 'topsecret' );
+    my $containers = $c->peer('my-peer')->env('my-env')->containers
 
 # DESCRIPTION
 
-Bazaar::Container is
+Bazaar a rest client that helps in manage containers from a perl environment. 
 
 # AUTHOR
 
@@ -23,4 +26,3 @@ Copyright 2018- Marco Arthur
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-# SEE ALSO
