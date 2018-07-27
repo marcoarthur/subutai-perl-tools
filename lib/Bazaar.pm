@@ -25,6 +25,8 @@ has ua => (
 
 # builds useragent to be used on bazaar transactions
 sub _build_ua {
+    my $ua = Mojo::UserAgent->new;
+    $ua->max_redirect(5);
     ...
 }
 
